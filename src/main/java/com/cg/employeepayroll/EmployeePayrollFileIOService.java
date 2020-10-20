@@ -22,11 +22,11 @@ public class EmployeePayrollFileIOService {
         }catch (IOException e){ e.printStackTrace(); }
     }
 
-   /* public void printData(){
+    public void printData(){
         try { Files.lines(new File("payroll-file.txt").toPath()).forEach(System.out::println);
         }catch (IOException e){ System.out.println("Exception"); }
     }
-    public long countEntries() {
+  /*  public long countEntries() {
         long entries = 0;
         try {
             entries = Files.lines(new File("payroll-file.txt").toPath()).count();
