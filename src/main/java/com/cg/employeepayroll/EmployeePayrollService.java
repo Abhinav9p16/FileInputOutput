@@ -10,11 +10,11 @@ public class EmployeePayrollService {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Employee Payroll program");
-        /*ArrayList<EmployeePayrollData> employeePayrollList = new ArrayList<>();
+        ArrayList<EmployeePayrollData> employeePayrollList = new ArrayList<>();
         EmployeePayrollService employeePayrollService = new EmployeePayrollService(employeePayrollList);
         Scanner consoleInputReader = new Scanner(System.in);
         employeePayrollService.readEmployeePayrollData(consoleInputReader);
-        employeePayrollService.writeEmployeePayrollData();*/
+        employeePayrollService.writeEmployeePayrollData();
     }
 
     private void readEmployeePayrollData(Scanner consoleInputReader) {
