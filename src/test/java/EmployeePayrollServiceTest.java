@@ -21,10 +21,10 @@ public class EmployeePayrollServiceTest {
         long entries = employeePayrollService.countEntries(FILE_IO);
         Assert.assertEquals(3,entries);
     }
-   /* @Test
+    @Test
     public void givenFileOnReadMatchCount(){
        EmployeePayrollService employeePayrollService = new EmployeePayrollService();
        long entries = employeePayrollService.readEmployeePayrollData(FILE_IO);
-       Assert.assertEquals(0,entries);*/
-    //}
+       Assert.assertEquals(0,entries);
+    }
 }

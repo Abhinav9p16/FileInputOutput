@@ -35,7 +35,7 @@ public class EmployeePayrollFileIOService {
         } return entries;
     }
 
-   /* public List<EmployeePayrollData> readData() {
+    public List<EmployeePayrollData> readData() {
         List<EmployeePayrollData> employeePayrollList = new ArrayList<>();
         try{
             Files.lines(new File("payroll-file.txt").toPath()).map(line-> line.trim()).forEach(line-> System.out.println(line));
@@ -43,5 +43,5 @@ public class EmployeePayrollFileIOService {
             e.printStackTrace();
         }
         return employeePayrollList;
-    }*/
+    }
 }
